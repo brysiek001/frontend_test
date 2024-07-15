@@ -1,0 +1,42 @@
+@import '../../style/Vars.scss';
+
+.footer{
+    height: 140px;
+    background-color: $backgroundColor1;
+    display: flex;
+    justify-content: space-between;
+    padding-left:2vw;
+    padding-right:2vw;
+    align-items: center;
+    flex-direction: row;   
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+    border-top: 2px solid $black;
+    &__company{
+        display: none;
+        align-items: center;
+        gap: 2px;
+        @media only screen and (min-width: 960px) {
+            display: flex;
+        }
+        &__line{
+            width: 100px;
+            height: 1px;
+            background-color: $colorLogo;
+            border: none;
+        }
+        &__name{
+            gap:10px;
+            font-size: 2em;
+            color: $colorLogo;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+    
+           
+        }
+    } 
+    
+}

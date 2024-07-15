@@ -1,0 +1,37 @@
+@import '../../style/Vars.scss';
+
+.header{
+    height: 5vh;
+    background-color:  $backgroundColor1;
+    display: flex;
+    justify-content: space-between;
+    padding:1vw 2vw;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    &__icon{
+        background-color: $backgroundElements;
+        height: 5vh;
+        width: 5vh;
+        border-radius: 50%;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        &__inside{
+            color: $white;
+            height: 4vh;
+        }
+        &:hover{
+            background-color: $colorHover2;
+        }
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 21px;
+        align-items: flex-end;
+        color: $white;
+    }
+}

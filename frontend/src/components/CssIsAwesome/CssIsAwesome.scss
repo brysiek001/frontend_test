@@ -1,0 +1,28 @@
+@import '../../style/Vars.scss';
+
+.css-icon{
+    font-size:20px;
+    padding:2px 5px;
+    width:75px;
+    height:75px;
+    display: inline-block;
+    position: relative;
+    color: $colorBorder; 
+    cursor: pointer;
+    transition: transform 5s ease ;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: transform 5s ease-out;
+        border: 1px solid $colorBorder;
+    }
+    &:hover::after{
+        border-color:  $colorHover2;
+        color: $white; 
+        transform: rotate(360deg);
+    }
+}

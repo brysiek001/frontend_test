@@ -1,0 +1,17 @@
+@import '../../style/Vars.scss';
+
+.title{
+    color: $backgroundElements;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    font-size: 2em;
+    &__underline{
+        width: 5em;
+        height: 3px;
+        background-color: $backgroundElements;
+        border: none;
+    }
+}

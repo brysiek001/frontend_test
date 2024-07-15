@@ -1,0 +1,13 @@
+.main-view{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    &__sections{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        @media screen and (min-width: 960px) {
+            flex-wrap: nowrap;
+        }
+    }
+}

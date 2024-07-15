@@ -1,0 +1,22 @@
+@import '../../style/Vars.scss';
+.button{
+    height: 50px;
+    width: 150px;
+    border: 1px solid $colorBorder;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: 600;
+    color: $colorBorder;
+    align-items: center;
+    &__main{
+        &:hover{
+            background: linear-gradient(135deg, $colorHover1, $colorHover2);
+        }
+    }
+    &:hover{
+        color: $white;
+        border-color: $white;
+        cursor: pointer;
+    }
+}

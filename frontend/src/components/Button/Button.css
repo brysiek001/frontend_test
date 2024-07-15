@@ -1,0 +1,21 @@
+.button {
+  height: 50px;
+  width: 150px;
+  border: 1px solid #8c8f9e;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 17px;
+  font-weight: 600;
+  color: #8c8f9e;
+  align-items: center;
+}
+
+.button__main:hover {
+  background: linear-gradient(135deg, #a05e08, #e88301);
+}
+
+.button:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+  cursor: pointer;
+}

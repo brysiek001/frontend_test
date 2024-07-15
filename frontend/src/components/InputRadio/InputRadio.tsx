@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import "./InputRadio.scss";
+import "./InputRadio.css";
 
 type Props = {
   onClick?: () => void;

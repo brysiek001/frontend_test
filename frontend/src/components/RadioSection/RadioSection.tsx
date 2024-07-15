@@ -1,4 +1,4 @@
-import "./RadioSection.scss";
+import "./RadioSection.css";
 import { InputRadio } from "../InputRadio";
 import { useSetAtom } from "jotai";
 import { indexAtom } from "../../utils/useIndex";

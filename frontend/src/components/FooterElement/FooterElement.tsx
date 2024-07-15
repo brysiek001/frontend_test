@@ -4,7 +4,7 @@ import { textAtom } from "../../utils/useText";
 import data from "../../utils/text.json";
 import { personalAtom } from "../../utils/usePersonal";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import "./FooterElement.scss";
+import "./FooterElement.css";
 
 type Props = {
   isVisibility: boolean;

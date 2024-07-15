@@ -1,4 +1,4 @@
-import "./CssIsAwesome.scss";
+import "./CssIsAwesome.css";
 
 export const CssIsAwesome = () => {
   return (

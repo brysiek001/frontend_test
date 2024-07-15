@@ -1,4 +1,4 @@
-import "./Footer.scss";
+import "./Footer.css";
 import { CssIsAwesome } from "../CssIsAwesome";
 import { Button } from "../Button";
 import { FooterElement } from "../FooterElement";

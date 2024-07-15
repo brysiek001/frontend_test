@@ -1,6 +1,6 @@
 import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./Header.scss";
+import "./Header.css";
 import { useAtomValue } from "jotai";
 import { personalAtom } from "../../utils/usePersonal";
 

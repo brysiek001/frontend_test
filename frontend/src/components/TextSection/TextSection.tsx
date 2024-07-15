@@ -1,5 +1,5 @@
 import { useAtomValue } from "jotai";
-import "./TextSection.scss";
+import "./TextSection.css";
 import { textAtom } from "../../utils/useText";
 
 export const TextSection = () => {

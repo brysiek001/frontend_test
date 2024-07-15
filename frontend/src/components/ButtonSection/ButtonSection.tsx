@@ -1,6 +1,6 @@
 import { useAtom, useAtomValue } from "jotai";
 import { Button } from "../Button/Button";
-import "./ButtonSection.scss";
+import "./ButtonSection.css";
 import { textAtom } from "../../utils/useText";
 import data from "../../utils/text.json";
 import { indexAtom } from "../../utils/useIndex";
@@ -27,7 +27,6 @@ export const ButtonSection = () => {
   };
 
   const onChangeText = () => {
-    
     setText([textExist]);
   };
   return (

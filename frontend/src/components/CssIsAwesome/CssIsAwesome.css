@@ -1,0 +1,28 @@
+.css-icon {
+  font-size: 20px;
+  padding: 2px 5px;
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  position: relative;
+  color: #8c8f9e;
+  cursor: pointer;
+  transition: transform 5s ease;
+}
+
+.css-icon::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 5s ease-out;
+  border: 1px solid #8c8f9e;
+}
+
+.css-icon:hover::after {
+  border-color: #e88301;
+  color: #ffffff;
+  transform: rotate(360deg);
+}

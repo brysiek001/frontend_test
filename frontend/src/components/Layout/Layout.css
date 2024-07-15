@@ -1,0 +1,12 @@
+.layout {
+  height: "100%";
+  display: "flex";
+  flex-direction: "column";
+  width: "100vw";
+}
+
+.layout__main {
+  background-color: #535353;
+  height: calc(95vh - 140px);
+  padding: 2vw;
+}

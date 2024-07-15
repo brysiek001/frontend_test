@@ -4,7 +4,7 @@ import {
   TextSection,
   Title,
 } from "../../components";
-import "./MainView.scss";
+import "./MainView.css";
 
 export const MainView = () => {
   return (
